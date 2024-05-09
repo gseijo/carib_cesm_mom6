@@ -1,0 +1,342 @@
+"MOM6 diagnostic fields table for CESM case: CARIB_12.SMAG.001"
+1 1 1 0 0 0
+### Section-1: File List
+#========================
+"CARIB_12.SMAG.001.mom6.frc%4yr-%2mo",                  1,  "months", 1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo",                 1,  "months", 1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.hm%4yr-%2mo",                   1,  "months", 1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.h%4yr",                         1,  "years",  1, "days",   "time", 1, "years"
+"CARIB_12.SMAG.001.mom6.h1%4yr-%2mo",                   1,  "months", 1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo",                  1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.static",                        -1, "days",   1, "days",   "time"
+"CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo",                 1,  "days",   1, "days",   "time",1, "months"
+"CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo",		    1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo",            1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo",             1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo",                 1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo",            1,  "days",   1, "days",   "time",1, "months"
+"CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo",            1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo",              1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo",              1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo",              1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo",           1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo",             1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo",              1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo",             1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo",               1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo",                     1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo",                     1,  "days",   1, "days",   "time", 1, "months"
+"CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo",                     1,  "days",   1, "days",   "time", 1, "months"
+
+### Section-2: Fields List
+#=========================
+# CARIB_12.SMAG.001.mom6.frc%4yr-%2mo
+"ocean_model","taux","taux","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","tauy","tauy","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","ustar","ustar","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+# mass/vol
+"ocean_model","PRCmE","PRCmE","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","lprec","lprec","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","fprec","fprec","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","evap","evap","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","vprec","vprec","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","lrunoff","lrunoff","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","frunoff","frunoff","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","seaice_melt","seaice_melt","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+# heat
+"ocean_model","net_heat_coupler","net_heat_coupler","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","net_heat_surface","net_heat_surface","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","frazil","frazil","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","sensible","sensible","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","latent","latent","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","LwLatSens","LwLatSens","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","SW","SW","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","LW","LW","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","Heat_PmE","Heat_PmE","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","seaice_melt_heat","seaice_melt_heat","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_lrunoff","heat_content_lrunoff","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_frunoff","heat_content_frunoff","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_icemelt","heat_content_icemelt","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_lprec","heat_content_lprec","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_fprec","heat_content_fprec","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_vprec","heat_content_vprec","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_cond","heat_content_cond","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_evap","heat_content_evap","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_massout","heat_content_massout","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_massin","heat_content_massin","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_content_surfwater","heat_content_surfwater","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","internal_heat","internal_heat","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","heat_added","heat_added","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","latent_evap","latent_evap","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","latent_fprec_diag","latent_fprec_diag","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","latent_frunoff","latent_frunoff","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+# others
+"ocean_model","temp_int","temp_int","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","salt_int","salt_int","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","hfds","hfds","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","p_surf","p_surf","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","salt_flux","salt_flux","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","salt_flux_in","salt_flux_in","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","vprec_global_adjustment","vprec_global_adjustment","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","net_fresh_water_global_adjustment","net_fresh_water_global_adjustment","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","salt_flux_global_restoring_adjustment","salt_flux_global_restoring_adjustment","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","net_massout","net_massout","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+"ocean_model","net_massin","net_massin","CARIB_12.SMAG.001.mom6.frc%4yr-%2mo","all",.true.,"none", 2
+
+# "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo"
+"ocean_model_rho2", "volcello","volcello","CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vmo",     "vmo",     "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "vhml",    "vhml",    "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "umo",     "umo",     "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "uhml",    "uhml",    "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "thetao",  "thetao",  "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "so",      "so",      "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_rho2", "agessc",  "agessc",  "CARIB_12.SMAG.001.mom6.rho2%4yr-%2mo", "all", "mean", "none", 2
+
+# "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo"
+"ocean_model", "uo",           "uo",           "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vo",           "vo",           "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "h",            "h",            "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "e",            "e",            "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetao",       "thetao",       "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "so",           "so",           "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhoinsitu",    "rhoinsitu",    "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KE",           "KE",           "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "rhopot0",      "rhopot0",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "soga",         "soga",         "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "thetaoga",     "thetaoga",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uh",           "uh",           "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vh",           "vh",           "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhbt",         "vhbt",         "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhbt",         "uhbt",         "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSH",          "SSH",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSU",          "SSU",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxybo",     "difmxybo",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "difmxylo",     "difmxylo",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "volcello",     "volcello",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vmo",          "vmo",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "vhml",         "vhml",         "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "umo",          "umo",          "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "uhml",         "uhml",         "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "agessc",       "agessc",       "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady_2d",     "T_ady_2d",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx_2d",     "T_adx_2d",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "taux_bot",     "taux_bot",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tauy_bot",     "tauy_bot",     "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_tendency",   "S_tendency",   "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_adx",        "S_adx",        "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_ady",        "S_ady",        "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_diffx",      "S_diffx",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_diffy",      "S_diffy",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Th_tendency",  "Th_tendency",  "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_adx",        "T_adx",        "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_ady",        "T_ady",        "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffx",      "T_diffx",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_diffy",      "T_diffy",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "osalttend",    "osalttend",    "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "S_advection_xy", "S_advection_xy", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Sh_tendency_vert_remap", "Sh_tendency_vert_remap",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "boundary_forcing_salt_tendency", "boundary_forcing_salt_tendency",      "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "osaltpmdiff", "osaltpmdiff", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "osaltdiff", "osaltdiff", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottemptend", "opottemptend", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "T_advection_xy", "T_advection_xy", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Th_tendency_vert_remap", "Th_tendency_vert_remap", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "boundary_forcing_heat_tendency", "boundary_forcing_heat_tendency", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottemppmdiff", "opottemppmdiff", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempdiff", "opottempdiff", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "internal_heat_heat_tendency", "internal_heat_heat_tendency", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "frazil_heat_tendency", "frazil_heat_tendency", "CARIB_12.SMAG.001.mom6.hm%4yr-%2mo", "all", "mean", "none", 2
+
+# "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo"
+"ocean_model_z1", "volcello", "volcello", "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "uo",       "uo",       "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "vo",       "vo",       "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "thetao",   "thetao",   "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "so",       "so",       "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "SSH",      "SSH",      "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "mlotst",   "mlotst",   "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "KE",       "KE",        "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "osalttend",    "osalttend",      "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model_z1", "S_advection_xy", "S_advection_xy",      "CARIB_12.SMAG.001.mom6.h1%4yr-%2mo", "all", "mean", "none", 2
+
+# "CARIB_12.SMAG.001.mom6.h%4yr-%2mo"
+"ocean_model_z", "volcello","volcello",   "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "h",       "h",          "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "uo",       "uo",        "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "vo",       "vo",        "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "thetao",   "thetao",    "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "so",       "so",        "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "rhopot0",  "rhopot0",   "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "rhoinsitu","rhoinsitu", "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "mlotst",   "mlotst",    "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+"ocean_model_z", "SSH",      "SSH",       "CARIB_12.SMAG.001.mom6.h%4yr", "all", "mean", "none", 2
+
+
+# "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo"
+"ocean_model", "lrunoff",      "lrunoff",      "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSH",          "SSH",          "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "tos",          "tos",          "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "sos",          "sos",          "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSU",          "SSU",          "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "SSV",          "SSV",          "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mass_wt",      "mass_wt",      "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "opottempmint", "opottempmint", "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "somint",       "somint",       "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "Rd_dx",        "Rd_dx",        "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "speed",        "speed",        "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "mlotst",       "mlotst",       "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+"ocean_model", "KPP_OBLdepth", "oml",          "CARIB_12.SMAG.001.mom6.sfc%4yr-%2mo", "all", "mean", "none", 2
+
+# "CARIB_12.SMAG.001.mom6.static"
+"ocean_model", "geolon",     "geolon",     "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolat",     "geolat",     "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_c",   "geolon_c",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_c",   "geolat_c",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_u",   "geolon_u",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_u",   "geolat_u",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolon_v",   "geolon_v",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "geolat_v",   "geolat_v",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "area_t",     "area_t",     "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "depth_ocean","depth_ocean","CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "wet",        "wet",        "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "wet_c",      "wet_c",      "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "wet_u",      "wet_u",      "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "wet_v",      "wet_v",      "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+"ocean_model", "Coriolis",   "Coriolis",   "CARIB_12.SMAG.001.mom6.static", "all", ".false.", "none", 2
+
+# "CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo","all","mean","-80.529 -80.529 22.894 25.223  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo","all","mean","-80.529 -80.529 22.894 25.223  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo","all","mean","-80.529 -80.529 22.894 25.223  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo","all","mean","-80.529 -80.529 22.894 25.223  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Florida_Cuba%4yr-%2mo","all","mean","-80.529 -80.529 22.894 25.223  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo","all","mean","-80.115 -78.869 26.63 26.636 -1 -1",2
+"ocean_model_z", "vo","vo","CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo","all","mean","-80.115 -78.869 26.636 26.636  -1 -1",2
+"ocean_model_z", "vmo","vmo","CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo","all","mean","-80.115 -78.869 26.636 26.636  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo","all","mean","-80.115 -78.869 26.636 26.636  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Florida_Strait%4yr-%2mo","all","mean","-80.115 -78.869 26.636 26.636  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo","all","mean","-87.169 -84.679 21.564 21.564 -1 -1",2
+"ocean_model_z", "vo","vo","CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo","all","mean","-87.169 -84.679 21.564 21.564  -1 -1",2
+"ocean_model_z", "vmo","vmo","CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo","all","mean","-87.169 -84.679 21.564 21.564 -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo","all","mean","-87.169 -84.679 21.564 21.564 -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Yucatan_Peninsula%4yr-%2mo","all","mean","-87.169 -84.679 21.564 21.564 -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo","all","mean","-74.968 -72.810 19.984 19.984 -1 -1",2
+"ocean_model_z", "vo","vo","CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo","all","mean","-74.968 -72.810 19.984 19.984 -1 -1",2
+"ocean_model_z", "vmo","vmo","CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo","all","mean","-74.968 -72.810 19.984 19.984 -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo","all","mean","-74.968 -72.810 19.984 19.984 -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Windward_Passage%4yr-%2mo","all","mean","-74.968 -72.810 19.984 19.984 -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo","all","mean","-68.660 -67.0 18.238 18.238 -1 -1",2
+"ocean_model_z", "vo","vo","CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo","all","mean","-68.660 -67.0 18.238 18.238 -1 -1",2
+"ocean_model_z", "vmo","vmo","CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo","all","mean","-68.660 -67.0 18.238 18.238 -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo","all","mean","-68.660 -67.0 18.238 18.238 -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Mona_Passage%4yr-%2mo","all","mean","-68.660 -67.0 18.238 18.238 -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo","all","mean","-71.482 -71.482 12.168 17.822  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo","all","mean","-71.482 -71.482 12.168 17.822  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo","all","mean","-71.482 -71.482 12.168 17.822  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo","all","mean","-71.482 -71.482 12.168 17.822  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Central_Caribbean%4yr-%2mo","all","mean","-71.482 -71.482 12.168 17.822  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo","all","mean","-66 -66 10.505 30  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo","all","mean","-66 -66 10.505 30  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo","all","mean","-66 -66 10.505 30  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo","all","mean","-66 -66 10.505 30  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.WOCE_A22%4yr-%2mo","all","mean","-66 -66 10.505 30  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo","all","mean","-66.004 -63.016 18.072 18.072 -1 -1",2
+"ocean_model_z", "vo","vo","CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo","all","mean","-66.004 -63.016 18.072 18.072 -1 -1",2
+"ocean_model_z", "vmo","vmo","CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo","all","mean","-66.004 -63.016 18.072 18.072 -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo","all","mean","-66.004 -63.016 18.072 18.072 -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Anegada_Passage%4yr-%2mo","all","mean","-66.004 -63.016 18.072 18.072 -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo","all","mean","-63.098 -63.098 10.505 18.072  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo","all","mean","-63.098 -63.098 10.505 18.072  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo","all","mean","-63.098 -63.098 10.505 18.072  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo","all","mean","-63.098 -63.098 10.505 18.072  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Lesser_Antilles%4yr-%2mo","all","mean","-63.098 -63.098 10.505 18.072  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo","all","mean","-61.771 -61.771 16.326 17.074  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo","all","mean","-61.771 -61.771 16.326 17.074  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo","all","mean","-61.771 -61.771 16.326 17.074  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo","all","mean","-61.771 -61.771 16.326 17.074  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Antigua_Passage%4yr-%2mo","all","mean","-61.771 -61.771 16.326 17.074  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo","all","mean","-61.439 -61.439 15.495 16.326  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo","all","mean","-61.439 -61.439 15.495 16.326  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo","all","mean","-61.439 -61.439 15.495 16.326  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo","all","mean","-61.439 -61.439 15.495 16.326  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Guadeloupe_Passage%4yr-%2mo","all","mean","-61.439 -61.439 15.495 16.326  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo","all","mean","-61.273 -61.273 14.829 15.328  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo","all","mean","-61.273 -61.273 14.829 15.328  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo","all","mean","-61.273 -61.273 14.829 15.328  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo","all","mean","-61.273 -61.273 14.829 15.328  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Dominica_Passage%4yr-%2mo","all","mean","-61.273 -61.273 14.829 15.328  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo","all","mean","-61.024 -61.024 13.998 14.497  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo","all","mean","-61.024 -61.024 13.998 14.497  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo","all","mean","-61.024 -61.024 13.998 14.497  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo","all","mean","-61.024 -61.024 13.998 14.497  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.StLucia_Passage%4yr-%2mo","all","mean","-61.024 -61.024 13.998 14.497  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo","all","mean","-61.024 -61.024 10.505 13.915  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo","all","mean","-61.024 -61.024 10.505 13.915  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo","all","mean","-61.024 -61.024 10.505 13.915  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo","all","mean","-61.024 -61.024 10.505 13.915  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.StLucia_Trinidad%4yr-%2mo","all","mean","-61.024 -61.024 10.505 13.915  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo","all","mean","-61.107 -61.107 9.507 10.173  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo","all","mean","-61.107 -61.107 9.507 10.173  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo","all","mean","-61.107 -61.107 9.507 10.173  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo","all","mean","-61.107 -61.107 9.507 10.173  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Serpents_Mouth%4yr-%2mo","all","mean","-61.107 -61.107 9.507 10.173  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo","all","mean","-59.613 -59.613 8.177 13.166  -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo","all","mean","-59.613 -59.613 8.177 13.166  -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo","all","mean","-59.613 -59.613 8.177 13.166  -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo","all","mean","-59.613 -59.613 8.177 13.166  -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.Barbados%4yr-%2mo","all","mean","-59.613 -59.613 8.177 13.166  -1 -1",2
+
+# "CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo","all","mean","-80 -40 24 24 -1 -1",2
+"ocean_model_z", "vo","vo","CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo","all","mean","-80 -40 24 24 -1 -1",2
+"ocean_model_z", "vmo","vmo","CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo","all","mean","-80 -40 24 24 -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo","all","mean","-80 -40 24 24 -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.WOCE_A05%4yr-%2mo","all","mean","-80 -40 24 24 -1 -1",2
+
+#"CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo"
+"ocean_model_z", "volcello","volcello","CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo","all","mean","-52 -52 6 30 -1 -1",2
+"ocean_model_z", "uo","uo","CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo","all","mean","-52 -52 6 30 -1 -1",2
+"ocean_model_z", "umo","umo","CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo","all","mean","-52 -52 6 30 -1 -1",2
+"ocean_model_z", "thetao","thetao","CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo","all","mean","-52 -52 6 30 -1 -1",2
+"ocean_model_z", "so","so","CARIB_12.SMAG.001.mom6.WOCE_A20%4yr-%2mo","all","mean","-52 -52 6 30 -1 -1",2
